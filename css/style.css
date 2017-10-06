@@ -1,0 +1,519 @@
+/*@font-face {
+    font-family: "Trebuchet MS";
+    src: url("../fonts/Trebuchet MS.ttf");
+}*/
+
+body {
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.main-header {
+    padding-top: 35px; 
+padding-right: 65px; 
+padding-left: 60px; 
+padding-bottom: 80px; 
+background-color: #6451d5; 
+background-image: url("./img/logo.png"); 
+background-position: 170px 68px; 
+background-repeat: no-repeat; 
+}
+
+.main-header .container {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-top {
+margin-bottom: 93px; 
+height: 82px; }
+
+.header-top::after {
+display: table; 
+clear: both; 
+content: ""; 
+}
+
+.logo {
+    width: 182px;
+    min-height: 100px;
+    float: left;
+}
+
+.logo img { 
+display: block; 
+} 
+
+.main-menu {
+    float: right; 
+width: 680px; 
+margin-top: 25px; 
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block; 
+margin-right: 40px; 
+vertical-align: top; 
+font-size: 18px; 
+font-weight: bold; 
+line-height: 24px; 
+}
+
+.main-menu li:last-child {
+    margin-right: 9px;
+    vertical-align: top;
+}
+
+.main-menu a {
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+.main-menu a:active {
+  text-decoration: none;
+  opacity: 0.3;
+}
+
+.promo-block {
+    width: 450px;
+    position: relative;
+    z-index: 10;
+}
+
+.promo-block::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 380px;
+    width: 653px;
+    height: 451px;
+    background-image: url(../img/items.png);
+    background-repeat: no-repeat;
+}
+
+.promo-title {
+    margin-bottom: 35px;
+    font-family: Trebuchet MS;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.promo-block p {
+    width: 320px;
+    margin-bottom: 50px;
+    color: #bcb3f2;
+    line-height: 30px;
+}
+
+.promo-block .btn {
+    width: 320px;
+    height: 70px;
+    display: inline-block;
+    background: #382d78;
+    outline: none;
+    border: none;
+    text-align: center;
+	cursor: pointer; 
+}
+.features .container {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.btn-register a {
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    line-height: 70px;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.features {
+    background-color: #efefef;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+.features .container::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.features .col {
+    width: 320px;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 77px;
+ }
+
+.features .col:nth-child(3) {
+    background-position: center 2px;
+}
+
+
+h2.features-title {
+    margin: 0;
+    margin-bottom: 12px;
+    font-family: Trebuchet MS;
+    font-size: 22px;
+    text-align: center;
+}
+
+.features .col:nth-child(1) {
+    background-image: url(../img/icon-adv-1.png);
+}
+
+.features .col:nth-child(2) {
+    background-image: url(../img/icon-adv-2.png);
+}
+
+.features .col:nth-child(3) {
+     background-image: url(../img/icon-adv-3.png);
+     margin-right: 0;
+}
+
+.col p {
+    margin: 0;
+    text-align: center;
+    color: #555555;
+}
+
+.education {
+    padding-top: 13px;
+    padding-bottom: 69px;
+    background-color: #ffffff;
+}
+
+.education-title {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 3px solid #a3a3a3;
+    background-color: #ffffff;
+    
+}
+
+.education .container
+{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.education td {
+    border: 2px solid #404040;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 29px;
+    padding-right: 35px;
+}
+
+.education td.th {
+    background-color: #efefef;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 30px;
+    color: #404040;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-right: 44px;
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+
+.education td.bold {
+    font-family: Trebuchet MS;
+    font-size: 22px;
+    line-height: 24px;
+    white-space: nowrap;
+    color: black;
+    padding-top: 23px;
+    padding-bottom: 53px;
+}
+
+.education  .column1
+{
+	width: 210px;
+}
+
+.education td.lot {
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #404040;
+    white-space: normal;
+    padding-top: 20px;
+    padding-left: 32px;
+    padding-right: 30px;
+}
+
+
+.contacts {
+  padding-top: 50px;
+  padding-bottom: 56px;
+  background-color: #efefef;
+}
+
+.contacts .container {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.contacts-title {
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.contacts-form {
+  float: left;
+  width: 620px;
+}
+
+.contacts-form td {
+  padding-bottom: 16px;
+}
+
+.contacts-form .title {
+    width: 90px;
+    padding-right: 5px;
+    vertical-align: top;
+    text-align: right;
+    font-weight: 700;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.contacts-form .field {
+  width: 510px;
+}
+
+.contacts-form input[type="text"],
+.contacts-form textarea {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-family: Taxoma, sans-serif;
+    color: #404040;
+    line-height: 24px;
+    outline: none;
+    border: 2px solid #b2b2b2;
+    border-radius: 2px;
+}
+
+.contacts-form textarea {
+    padding: 10px 25px;
+}
+
+.contacts-form input[type="text"]:hover,
+.contacts-form textarea:hover {
+    border: 2px solid #7f7f7f;
+}
+
+.contacts-form input[type="text"]:focus,
+.contacts-form textarea:focus {
+  border: 2px solid #00b770;
+}
+
+.contacts-form textarea {
+    min-height: 100px;
+    resize: none;
+}
+.contacts .container {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+input.btn-send {
+    width: 100%;
+    height: 70px;
+    border-radius: 3px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #382d78;
+	cursor: pointer; 
+}
+
+.contacts-instruction {
+    float: right;
+    width: 320px;
+}
+
+.contacts-instruction h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.contacts-instruction p {
+    margin: 0;
+    margin-bottom: 25px;
+    color: #555555;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.contacts-instruction .contacts-alert {
+    margin-top: 45px;
+}
+
+.contacts-instruction .contacts-alert {
+    margin-bottom: 0;
+}
+
+.contacts-alert strong {
+    color: #000000;
+}
+
+.main-footer {
+    padding-top: 65px;
+    padding-bottom: 75px;
+    background-color: #2a2546;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.footer-top::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.footer-address {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.footer-address .logo {
+  float: none;
+}
+
+.footer-address p {
+    margin: 0;
+    margin-top: 60px;
+}
+
+.footer-menu {
+    float: left;
+    width: 180px;
+    margin-top: 25px;
+}
+
+.footer-menu:last-child {
+    width: 140px;
+}
+
+.footer-menu h3 {
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu li {
+    margin-bottom: 26px;
+}
+
+.footer-menu a {
+    color: #a39ebe;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer-menu a:active {
+    text-decoration: none;
+    opacity: 0.3;
+}
+.main-footer .container {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
